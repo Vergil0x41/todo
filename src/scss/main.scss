@@ -203,6 +203,10 @@ button,input {
         width: 100%;
         background:  #eee8f4;
         padding: 24px;
+        & span {
+            display: block;
+            margin: 10px 0;
+        }
         &-title {
             font-weight: 400;
             font-size: 24px;

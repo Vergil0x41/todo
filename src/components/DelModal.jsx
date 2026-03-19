@@ -15,6 +15,7 @@ export default function DelModal({deleteNoteHandler, currentNote}) {
         <div className="modal" onClick={() => closeDelModal()}>
             <div className="modal__box" onClick={(event) => event.stopPropagation()}>
                 <h2 className="modal__box-title">{t('confirm_del')}</h2>
+                <span>{currentNote.title}</span>
             
                 <div className="modal__box-buttons del_buttons">
                     <button 
